@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learn C++</title>
+  <style>
+    /* Dark theme CSS */
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    /* Light theme CSS */
+    .light-theme {
+      background-color: white;
+      color: black;
+    }
+    /* Add more styles here as per your requirement */
+  </style>
+</head>
+<body>
+  <button id="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+
+  <h1>Welcome to the C++ Learning Website</h1>
+  <p>This website is dedicated to helping you learn the C++ programming language.</p>
+
+  <h2>Getting Started</h2>
+  <p>Before you can start writing C++ code, you will need to download and install a C++ compiler. Some popular compilers include:</p>
+  <ul>
+    <li>GCC (GNU Compiler Collection)</li>
+    <li>Clang</li>
+    <li>Visual C++ (part of Visual Studio)</li>
+  </ul>
+  <p>Once you have a compiler installed, you can start writing and running C++ code. A basic C++ program might look something like this:</p>
+  <pre>
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+      cout << "Hello, World!" << endl;
+      return 0;
+    }
+  </pre>
+  
+  <h2>Syntax</h2>
+  <p>C++ has a lot of rules for syntax. For example, every statement must end with a semicolon and curly braces are used to define the scope of a block of code. Here is a simple example of a C++ function:</p>
+  <pre>
+    void printHello() {
+      cout << "Hello, World!" << endl;
+    }
+  </pre>
+  <p>You can call this function by writing `printHello();` anywhere in your code. It will print "Hello, World!" to the console.</p>
+
+  <h2>Learn More</h2>
+  <p>To learn more about C++, you can check out the following resources:</p>
+  <ul>
+    <li>The C++ Programming Language by Bjarne Stroustrup</li>
+    <li>Effective C++ by Scott Meyers</li>
+    <li>C++ Primer by Lippman, Lajoie, and Moo</li>
+  </ul>
+  
+  <script>
+    // Theme toggle function
+    function toggleTheme() {
+      var body = document.body;
+      var themeToggle = document.getElementById("theme-toggle");
+
+      if (body.classList.contains("light-theme")) {
+        body.classList.remove("light-theme");
+        themeToggle.innerHTML = "Enable Light Theme";
+      } else {
+        body.classList.add("light-theme");
+        themeToggle.innerHTML = "Enable Dark Theme";
+      }
+    }
+  </script>
