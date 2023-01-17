@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Learn C++</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <style>
     /* Dark theme CSS */
     body {
@@ -18,46 +19,51 @@
   </style>
 </head>
 <body>
-  <button id="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+  <button id="theme-toggle" onclick="toggleTheme()" class="btn btn-primary">Toggle Theme</button>
 
-  <h1>Welcome to the C++ Learning Website</h1>
-  <p>This website is dedicated to helping you learn the C++ programming language.</p>
+  <div class="container mt-5">
+    <h1>Welcome to the C++ Learning Website</h1>
+    <p>This website is dedicated to helping you learn the C++ programming language.</p>
 
-  <h2>Getting Started</h2>
-  <p>Before you can start writing C++ code, you will need to download and install a C++ compiler. Some popular compilers include:</p>
-  <ul>
-    <li>GCC (GNU Compiler Collection)</li>
-    <li>Clang</li>
-    <li>Visual C++ (part of Visual Studio)</li>
-  </ul>
-  <p>Once you have a compiler installed, you can start writing and running C++ code. A basic C++ program might look something like this:</p>
-  <pre>
-    #include <iostream>
-    using namespace std;
+    <h2>Getting Started</h2>
+    <p>Before you can start writing C++ code, you will need to download and install a C++ compiler. Some popular compilers include:</p>
+    <ul>
+      <li>GCC (GNU Compiler Collection)</li>
+      <li>Clang</li>
+      <li>Visual C++ (part of Visual Studio)</li>
+    </ul>
+    <p>Once you have a compiler installed, you can start writing and running C++ code. A basic C++ program might look something like this:</p>
+    <pre>
+      #include <iostream>
+      using namespace std;
 
-    int main() {
-      cout << "Hello, World!" << endl;
-      return 0;
-    }
-  </pre>
-  
-  <h2>Syntax</h2>
-  <p>C++ has a lot of rules for syntax. For example, every statement must end with a semicolon and curly braces are used to define the scope of a block of code. Here is a simple example of a C++ function:</p>
-  <pre>
-    void printHello() {
-      cout << "Hello, World!" << endl;
-    }
-  </pre>
-  <p>You can call this function by writing `printHello();` anywhere in your code. It will print "Hello, World!" to the console.</p>
+      int main() {
+        cout << "Hello, World!" << endl;
+        return 0;
+      }
+    </pre>
 
-  <h2>Learn More</h2>
-  <p>To learn more about C++, you can check out the following resources:</p>
-  <ul>
-    <li>The C++ Programming Language by Bjarne Stroustrup</li>
-    <li>Effective C++ by Scott Meyers</li>
-    <li>C++ Primer by Lippman, Lajoie, and Moo</li>
-  </ul>
-  
+    <h2>Syntax</h2>
+    <p>C++ has a lot of rules for syntax. For example, every statement must end with a semicolon and curly braces are used to define the scope of a block of code. Here is a simple example of a C++ function:</p>
+    <pre>
+      void printHello() {
+        cout << "Hello, World!" << endl;
+      }
+    </pre>
+    <p>You can call this function by writing `printHello();` anywhere in your code. It will print "Hello, World!" to the console.</p>
+
+    <h2>Learn More</h2>
+    <p>To learn more about C++, you can check out the following resources:</p>
+    <ul>
+      <li>The C++ Programming Language by Bjarne Stroustrup</li>
+      <li>Effective C++ by Scott Meyers</li>
+      <li>C++ Primer by Lippman, Lajoie, and Moo</li>
+    </ul>
+  </div>
+  <script src="https://code.jquery
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script>
     // Theme toggle function
     function toggleTheme() {
@@ -73,4 +79,5 @@
       }
     }
   </script>
- 
+</body>
+</html>
