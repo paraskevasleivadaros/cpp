@@ -7,4 +7,5 @@ A simple website about learning C++ 💻
 
 This is a website that is designed to help users learn the C++ programming language. The website includes information on how to get started with C++, including information on how to download and install a compiler, as well as basic examples of C++ code. The website also includes information on C++ syntax and recommended resources for further learning. Additionally, the website includes a theme toggle button that switches the website from dark to light theme.
 
-<a href="https://choosealicense.com/licenses/mit/" target="_blank">MIT License</a>
+## Copyright & License
+[MIT](https://github.com/paraskevasleivadaros/cpp/blob/master/LICENSE)
