@@ -8,6 +8,7 @@ A simple website about learning C++ 💻
 This is a website that is designed to help users learn the C++ programming language. The website includes information on how to get started with C++, including information on how to download and install a compiler, as well as basic examples of C++ code. The website also includes information on C++ syntax and recommended resources for further learning. Additionally, the website includes a theme toggle button that switches the website from dark to light theme.
 
 ## 🛠️ Tech Stack
+[![C++](https://skills.thijs.gg/icons?i=cpp)](https://cplusplus.com)
 [![HTML](https://skills.thijs.gg/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 ## Copyright & License
