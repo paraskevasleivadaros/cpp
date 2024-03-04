@@ -10,6 +10,4 @@ This is a website that is designed to help users learn the C++ programming langu
 ### 🛠️ Tech Stack
 [![C++](https://skills.thijs.gg/icons?i=cpp)](https://cplusplus.com)
 [![HTML](https://skills.thijs.gg/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-
-### ©️ Copyright & License
-[MIT](https://github.com/paraskevasleivadaros/cpp/blob/master/LICENSE)
+[![GitHub Actions](https://skills.thijs.gg/icons?i=githubactions)](https://github.com/features/actions)
